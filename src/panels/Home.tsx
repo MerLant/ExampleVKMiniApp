@@ -1,6 +1,6 @@
 import React, {MouseEventHandler, useState} from 'react';
 
-import { Panel, PanelHeader, Header, Button, Group, Cell, Div, Avatar } from '@vkontakte/vkui';
+import { Panel, PanelHeader, Header, Button, Group, Div } from '@vkontakte/vkui';
 import { UserInfo } from '@vkontakte/vk-bridge';
 
 

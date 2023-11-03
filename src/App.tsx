@@ -1,6 +1,5 @@
-import React, { useState, useEffect, ReactNode, MouseEventHandler } from 'react';
-import bridge, { UserInfo } from '@vkontakte/vk-bridge';
-import { View, ScreenSpinner, AdaptivityProvider, AppRoot, ConfigProvider, SplitLayout, SplitCol } from '@vkontakte/vkui';
+import React, { useState, MouseEventHandler } from 'react';
+import { View, AdaptivityProvider, AppRoot, ConfigProvider, SplitLayout, SplitCol } from '@vkontakte/vkui';
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
