@@ -20,7 +20,7 @@ const Home: React.FC<Props> = ({ id, go }) => {
 			<Group header={<Header mode="secondary">Navigation Example</Header>}>
 				<Div>
 					<Button stretched size="l" mode="secondary" onClick={() => setKill(!Kill)} data-to="persik">
-						{Kill ? "DIE" : "Show me the Persik, please"}
+						{Kill ? "Persik, DIE" : "Show me the Persik, please"}
 					</Button>
 				</Div>
 			</Group>
