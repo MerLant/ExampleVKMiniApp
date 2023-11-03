@@ -13,7 +13,7 @@ npm run start
 ### Используя PNPM
 
 ```bash
-npm i
-npm start
+pnpm i
+pnpm start
 ```
 
